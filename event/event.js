@@ -21,8 +21,8 @@ btn.addEventListener('click', (e) => {
     const li = document.createElement('li');
     li.textContent = '한꺼번에 주문하기';
     ul.prepend(li);
-    // ul.append(li);
 });
+// ul.append(li);
 
 const orders = document.querySelectorAll('li');
 
